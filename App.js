@@ -9,13 +9,19 @@ const AppButton = ({ onPress, title }) => (
   </TouchableOpacity>
 );
 
+const AppButton2 = ({ onPress, title }) => (
+  <TouchableOpacity onPress={onPress} style={styles.appButtonContainer2}>
+    <Text style={styles.appButtonText}>{title}</Text>
+  </TouchableOpacity>
+);
+
 const App = () => {
   return (
     <View style={styles.screenContainer}>
       <Text style={styles.textStyle}>{"Ola mundo do Jung!"}</Text>
-      <AppButton title="Clica ni mim" size="sm" backgroundColor="#007bff"/>
-      <AppButton title="Mehh" size="sm" backgroundColor="#007bff"/>
-
+      <AppButton title="Clica ni mim"/>
+      <View style={styles.space}></View>
+      <AppButton2 title="Mehh" />
     </View>
   );
 };
@@ -28,10 +34,21 @@ const styles = StyleSheet.create({
   },
   appButtonContainer: {
     elevation: 8,
-    backgroundColor: "#009688",
+    backgroundColor: "#fcba03",
     borderRadius: 10,
-    paddingVertical: 10,
-    paddingHorizontal: 12
+    paddingVertical: 12,
+    alignSelf: "center",
+    height: 40,
+    width: 150
+  },
+  appButtonContainer2: {
+    elevation: 8,
+    backgroundColor: "#91eaed",
+    borderRadius: 10,
+    paddingVertical: 12,
+    alignSelf: "center",
+    height: 40,
+    width: 150
   },
   appButtonText: {
     fontSize: 18,
@@ -44,8 +61,13 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: "eb4034",
     textAlign: "center",
-    marginBottom: 20
-}
+    marginBottom: 20,
+  },
+  
+    space:{
+      width:20,
+      height:20
+  }
 });
 
 export default App;
