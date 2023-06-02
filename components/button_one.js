@@ -1,6 +1,6 @@
 import { TouchableOpacity, Text } from "react-native";
 import { Alert } from "react-native";
-import styles from "/components/styles-buttons.jsx";
+import styles from "./styles-buttons.js";
 
 
 TouchableOpacity.defaultProps = { activeOpacity: 0.8 };

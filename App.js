@@ -1,7 +1,7 @@
 import { View, Text} from "react-native";
-import AppButton  from "./components/button_one.jsx";
-import  AppButton2  from "./components/button_two.jsx";
-import styles from "./components/styles-buttons.jsx";
+import AppButton  from "./components/button_one.js";
+import  AppButton2  from "./components/button_two.js";
+import styles from "./components/styles-buttons.js";
 
 //Setando a URL
 const url = "https://google.com";

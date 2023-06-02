@@ -1,7 +1,7 @@
 import React, { useCallback } from "react";
 import { TouchableOpacity, Text } from "react-native";
 import { Linking } from "react-native";
-import styles from "../components/styles-buttons.jsx";
+import styles from "./styles-buttons.js";
 
 
 export const AppButton2 = ({ url, onPress}) => {
