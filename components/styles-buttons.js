@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
       flex: 1,
       justifyContent: "flex-start",
       padding: 16,
-      backgroundColor: "fff"
+      backgroundColor: "#4d4d4d"
     },
     appButtonContainer: {
       elevation: 8,
