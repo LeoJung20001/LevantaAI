@@ -5,7 +5,8 @@ export const styles = StyleSheet.create({
     screenContainer: {
       flex: 1,
       justifyContent: "flex-start",
-      padding: 16
+      padding: 16,
+      backgroundColor: "fff"
     },
     appButtonContainer: {
       elevation: 8,
@@ -43,6 +44,15 @@ export const styles = StyleSheet.create({
     space:{
         width:20,
         height:20
+    },
+    appButtonContainer3: {
+      elevation: 8,
+      backgroundColor: "#170db3",
+      borderRadius: 10,
+      paddingVertical: 12,
+      alignSelf: "center",
+      height: 45,
+      width: 150
     }
   });
   
