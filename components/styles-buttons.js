@@ -37,6 +37,8 @@ export const styles = StyleSheet.create({
       color: "#eb4034",
       textAlign: "center",
       marginBottom: 20,
+      height: 85,
+      top: '50%'
     },
     space:{
         width:20,
