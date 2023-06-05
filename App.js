@@ -1,27 +1,32 @@
 import { View, Text} from "react-native";
-import AppButton  from "./components/button_one.js";
-import  AppButton2  from "./components/button_two.js";
-import Button_color_one from "./components/button_color_one.js";
-import styles from "./components/styles-buttons.js";
+import styles from "./components/styles.js";
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { NavigationContainer } from '@react-navigation/native';
+import HomeScreen  from "./components/home_screen.js";
 
 
-//Setando a URL
-const url = "https://google.com";
+const Stack = createNativeStackNavigator();
 
-const App = () => {
+
+export default function App  ()  {
+  
+  //Setando o painel superior
   return (
-    <View style={styles.screenContainer}>
-      <View>
-      <Text style={styles.textStyle}>{"Ola mundo do Jung!"}</Text>
-      </View>
-      <AppButton  title="Fala comigo :)"/>
-      <View style={styles.space}></View>
-      <AppButton2 url={url}>{"Tchau"}</AppButton2>
-      <View style={styles.space}></View>
-      <Button_color_one title={"MUDA DE COR!"}></Button_color_one>
-    </View>
+      <NavigationContainer>
+      <Stack.Navigator>
+      <Stack.Screen name={"LevantaAI"} component={HomeScreen} 
+      options={{
+        title: "LevantaAI",
+        headerStyle:{
+          backgroundColor:"#3266a8",
+        },
+        headerTintColor: "white",
+        headerTitleStyle:{
+          fontWeight: "bold",
+        },
+      }
+    }/>
+      </Stack.Navigator>
+      </NavigationContainer>
   );
 }
-
-
-export default App;
