@@ -22,4 +22,6 @@ git clone https://github.com/LeoJung20001/LevantaAI.git
 
 cd LevantaAI
 
+npm install expo
+
 npm start
