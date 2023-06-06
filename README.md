@@ -14,4 +14,12 @@ The project is in the initial phase, but looks promising.
 
 ![react-native](https://github.com/LeoJung20001/LevantaAI/assets/131979478/7f893d06-b5f4-4ea8-812c-597551ca1bd2)
 
+# Test it on your machine!
 
+* You must have node and npm installed on your machine.
+
+git clone https://github.com/LeoJung20001/LevantaAI.git
+
+cd LevantaAI
+
+npm start
