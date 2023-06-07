@@ -13,7 +13,6 @@ export default function App  ()  {
   //Setando o painel superior
   return (
       <NavigationContainer>
-        <Set_timer_button styles={styles.Set_timer_button_cont}></Set_timer_button>
       <Stack.Navigator>
       <Stack.Screen name={"LevantaAI"} component={HomeScreen} 
       options={{
@@ -28,7 +27,8 @@ export default function App  ()  {
       }
     }/>
       </Stack.Navigator>
+      <Stack.Screen name={"Set timer button"} component={Set_timer_button}></Stack.Screen>
+      <Set_timer_button></Set_timer_button>
       </NavigationContainer>
- 
   );
 }

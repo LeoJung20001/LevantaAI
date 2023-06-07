@@ -18,7 +18,7 @@ export const styles = StyleSheet.create({
       },
     set_timer_butn_text_sty:{
       fontSize: 18,
-      color: "#3266a8",
+      color: "#fff",
       alignSelf: "center",
       textTransform: "uppercase"
       
