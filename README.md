@@ -13,7 +13,7 @@ The project is in the initial phase, but looks promising.
 
 # Framework
 
-![react-native](https://github.com/LeoJung20001/LevantaAI/assets/131979478/7f893d06-b5f4-4ea8-812c-597551ca1bd2)
+ <img align="center" alt="ReactNative" height="60" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
 
 # Test it on your machine!
 
