@@ -5,8 +5,8 @@ export const styles = StyleSheet.create({
     screenContainer: {
       flex: 1,
       justifyContent: "center",
-      padding: 400,
-      backgroundColor: "#fff"
+      backgroundColor: "#fff",
+      alignItems: "center"
     },
     header_bar: {
       flex:1,
@@ -16,11 +16,21 @@ export const styles = StyleSheet.create({
       headerStyle:{
         backgroundColor: "#3266a8"
       },
-    text_sty:{
-      font
-
+    set_timer_butn_text_sty:{
+      fontSize: 18,
+      color: "#3266a8",
+      alignSelf: "center",
+      textTransform: "uppercase"
+      
+    },
+    set_timer_button_cont: {
+      elevation: 8,
+      backgroundColor: "#3266a8",
+      borderRadius: 10,
+      paddingVertical: 10,
+      paddingHorizontal: 12
     }
-    }
+  }
     
   });
   
